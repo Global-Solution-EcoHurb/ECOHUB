@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>EcoHub - Energia Sustentável</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <img src="./img/ecohub.png" alt="Logo EcoHub" class="logo">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#grafico">Gráficos</a></li>
+                    <li><a href="./page1/page1.html">Cadastro de Usuário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner" class="banner-section">
+        <div class="banner-overlay">
+            <img src="./img/banner.webp" alt="Banner EcoHub" class="banner-img">
+            <div class="banner-text">
+                <h1>Energia Sustentável ao Alcance de Todos</h1>
+                <p>Construindo um futuro mais limpo com energia renovável e descentralizada.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="home" class="intro">
+        <div class="intro-content">
+            <h2>O que é o EcoHub?</h2>
+            <p>O EcoHub é uma solução inovadora para a geração descentralizada de energia renovável, utilizando tecnologias solares e eólicas. Nosso objetivo é proporcionar acesso à energia limpa e acessível, promovendo sustentabilidade e inclusão social.</p>
+            <p>Com nossos Micro-Hubs Comunitários de Energia, utilizamos painéis solares e turbinas eólicas para gerar eletricidade de forma eficiente e ambientalmente responsável, contribuindo para um mundo mais verde e justo.</p>
+        </div>
+    </section>
+
+    <section id="grafico" class="grafico-section">
+        <h2>Seu Consumo de Energia</h2>
+        <div id="grafico-geral" class="grafico-container">
+            <canvas id="graficoGeral"></canvas>
+        </div>
+        <div class="botoes-graficos">
+            <button onclick="location.href='./page2/page2.html'" class="grafico-botao">
+                <span>Produção Mensal</span>
+            </button>
+            <button onclick="location.href='./page3/page3.html'" class="grafico-botao">
+                <span>Consumo Diário</span>
+            </button>
+            <button onclick="location.href='./page5/page5.html'" class="grafico-botao">
+                <span>Histórico de Consumo e Produção</span>
+            </button>
+            <button onclick="location.href='./page4/page4.html'" class="grafico-botao">
+                <span>Gráfico do Micro-Hub</span>
+            </button>
+            <button id="gerarRelatorio" class="grafico-botao">
+                <span>Gerar Relatório do Uso Mensal</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="integrantes" class="integrantes-section">
+        <h2>Integrantes do Projeto</h2>
+        <div class="integrantes-cards">
+            <div class="card integrante">
+                <img src="./img/duda.png.png" alt="Foto de Maria Eduarda" class="foto-integrante">
+                <div class="card-content">
+                    <h3>Maria Eduarda Fernandes Rocha</h3>
+                    <p>RM: 560657</p>
+                    <p>Turma: 1TDS - Agosto</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/maria-eduarda-fernandes-rocha-5350a2327">LinkeIn</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="card integrante">
+                <img src="./img/victor.png.png" alt="Foto de Victor Carvalho" class="foto-integrante">
+                <div class="card-content">
+                    <h3>Victor de Carvalho Alves</h3>
+                    <p>RM: 560395</p>
+                    <p>Turma: 1TDS - Agosto</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/victor-de-carvalho-09045423b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkeIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 EcoHub. Todos os direitos reservados.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#grafico">Gráficos</a></li>
+                    <li><a href="./page1/page1.html">Cadastro de Usuário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
