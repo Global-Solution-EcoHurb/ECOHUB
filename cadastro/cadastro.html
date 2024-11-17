@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Cadastro de Usuário - EcoHub</title>
+    <script defer src="../js/script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <img src="../img/ecohub.png" alt="Logo EcoHub" class="logo">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="#grafico">Gráficos</a></li>
+                    <li><a href="#">Cadastro de Usuário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="cadastro" class="cadastro-section">
+        <div class="cadastro-container">
+            <h2>Cadastro de Usuário</h2>
+            <p>Preencha o formulário abaixo para se cadastrar e começar a aproveitar as vantagens do EcoHub.</p>
+            <form action="#" method="post" class="cadastro-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo-energia">Tipo(s) de Energia Produzida:</label>
+                    <select id="tipo-energia" name="tipo-energia" multiple required>
+                        <option value="solar">Solar</option>
+                        <option value="eolica">Eólica</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="capacidade">Capacidade de Geração Mensal Esperada (kWh):</label>
+                    <input type="number" id="capacidade" name="capacidade" placeholder="Digite a capacidade esperada" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="preco">Preço Desejado para Venda do Excedente (Opcional):</label>
+                    <input type="number" id="preco" name="preco" placeholder="Digite o preço desejado">
+                </div>
+
+                <div class="form-group form-submit">
+                    <button type="submit" class="cadastro-btn">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 EcoHub. Todos os direitos reservados.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#grafico">Gráficos</a></li>
+                    <li><a href="#">Cadastro de Usuário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
