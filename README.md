@@ -7,7 +7,7 @@ O **ECOHUB** é um sistema de gestão para Micro-Hubs Comunitários de Energia, 
 - Victor De Carvalho Alves (RM 560395) : Responsável pelas áreas de SOFTWARE ENGINEERING AND BUSINESS MODEL, DOMAIN DRIVEN DESIGN USING JAVA e ARTIFICIAL INTELLIGENCE E CHATBOT.
   
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-)]([https://www.linkedin.com/in/victor-de-carvalho-09045423b/])[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vitao2812)
+)](https://www.linkedin.com/in/victor-de-carvalho-09045423b/)[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vitao2812)
 
 
 - Maria Eduarda Fernandes (RM 560657) : Contribuiu com Building Relational Database, Computational Thinking Using Python
