@@ -4,8 +4,17 @@
 O **ECOHUB** é um sistema de gestão para Micro-Hubs Comunitários de Energia, projetado para permitir o controle eficiente da produção, consumo e venda de energia renovável. O objetivo principal é proporcionar uma ferramenta que facilite o monitoramento e gerenciamento da energia gerada em comunidades, promovendo sustentabilidade e autonomia energética.
 
 ## 👥 Membros do Projeto
-- **Victor De Carvalho Alves (RM 560395) **: Responsável pelas áreas de SOFTWARE ENGINEERING AND BUSINESS MODEL, DOMAIN DRIVEN DESIGN USING JAVA e ARTIFICIAL INTELLIGENCE E CHATBOT.
-- **Maria Eduarda Fernandes (RM 560657) **: Contribuiu com Front End, Python e Banco de Dados.
+- Victor De Carvalho Alves (RM 560395) : Responsável pelas áreas de SOFTWARE ENGINEERING AND BUSINESS MODEL, DOMAIN DRIVEN DESIGN USING JAVA e ARTIFICIAL INTELLIGENCE E CHATBOT.
+  
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+)]([https://www.linkedin.com/in/victor-de-carvalho-09045423b/](https://www.linkedin.com/in/maria-eduarda-fernandes-rocha-5350a2327/))[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vitao2812)
+
+
+- Maria Eduarda Fernandes (RM 560657) : Contribuiu com Building Relational Database, Computational Thinking Using Python
+ e FRONT-END DESIGN ENGINEERING.
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+)](https://www.linkedin.com/in/maria-eduarda-fernandes-rocha-5350a2327/)[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dudarocha26)
 
 ## ⚙️ Funcionalidades
 O ECOHUB oferece diversas funcionalidades para gerenciar os dados dos usuários e as atividades relacionadas à energia:
@@ -55,12 +64,6 @@ Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga os 
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
-
-## 📬 Contato
-Para mais informações, entre em contato com a equipe de desenvolvimento pelo e-mail: [equipe@ecohub.com](mailto:equipe@ecohub.com).
-
-- [GitHub Profile](https://github.com/seu-usuario) 🌐
-- [LinkedIn Profile](https://www.linkedin.com/in/seu-usuario) 🔗
 
 Esperamos que o **ECOHUB** seja úteil para suas necessidades de gestão de energia renovável! 🌿
 
